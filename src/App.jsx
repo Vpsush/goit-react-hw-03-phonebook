@@ -48,6 +48,7 @@ export class App extends Component {
       ...nameData,
       id: nanoid(),
     };
+
     this.setState(prevState => ({
       contacts: [...prevState.contacts, finalContact],
     }));
